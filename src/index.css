@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.network {
+  height: 70vh;
+  background-color: black;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.network h1 {
+  font-size: 2.5vw;
+  max-width: 800px;
+  margin-left: 100px;
+}
+.image-even {
+  height: 270px;
+  width: 150px;
+  border-radius: 120px;
+  object-fit: cover;
+  margin: 90px;
+}
+.image-odd {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.set1 {
+  position: absolute;
+  right: -150px;
+}
+.set2 {
+  position: absolute;
+  right: 100px;
+}
